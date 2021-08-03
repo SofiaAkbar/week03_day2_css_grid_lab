@@ -1,0 +1,21 @@
+/* .favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+  }
+  
+.favourite-bg-2 {
+  background-image: url(../img/favourites/australia.png);
+}
+  
+.favourite-bg-3 {
+  background-image: url(../img/favourites/switzerland.png);
+} */
+  
+
+.favourite {
+  display: flex;
+  justify-content: space-around;
+}
+
+.favourite > img {
+  width: 300px
+}

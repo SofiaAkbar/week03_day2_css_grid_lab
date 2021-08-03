@@ -1,0 +1,59 @@
+.popular {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#popular-container {
+    display: grid;
+    grid-template-areas:
+        'img1 img2 img3'
+        'img4 img5 img6'
+    ;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 20px;
+    place-self: center;
+}
+
+#img1 {
+    background-image: url(../img/place/california.png);
+}
+#img2 {
+    background-image: url(../img/place/california.png);
+}
+#img3 {
+    background-image: url(../img/place/california.png);
+}
+#img4 {
+    background-image: url(../img/place/california.png);
+}
+#img5 {
+    background-image: url(../img/place/california.png);
+}
+#img6 {
+    background-image: url(../img/place/california.png);
+}
+
+
+/* #popular_1 {
+    grid-area: 'img1';
+}
+
+#popular_2 {
+    grid-area: 'img2';
+}
+
+#popular_3 {
+    grid-area: 'img3';
+}
+
+#popular_4 {
+    grid-area: 'img4';
+}
+
+#popular_5 {
+    grid-area: 'img5';
+}
+
+#popular_6 {
+    grid-area: 'img6';
+} */
