@@ -10,12 +10,14 @@
   background-image: url(../img/favourites/switzerland.png);
 } */
   
-
 .favourite {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .favourite > img {
-  width: 300px
+  height: 300px; 
+  width: 500px;
+  margin: 0.5rem;
 }
